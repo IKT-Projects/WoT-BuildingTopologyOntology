@@ -1,0 +1,717 @@
+{
+	"bot-base-uri": "https://example.com/ict-gw/v1",
+	"wot-base-uri": "https://example.com/ict-gw/v1",
+	"things": [],
+	"site": {
+		"id": "SuiteSampleSite",
+		"name": "Suite sample site v0.1",
+		"coords": [
+			[
+				0,
+				10
+			],
+			[
+				600,
+				10
+			],
+			[
+				600,
+				300
+			],
+			[
+				0,
+				300
+			]
+		]
+	},
+	"buildings": [
+		{
+			"id": "residentialBuilding",
+			"name": "Residential building",
+			"coords": [
+				[
+					0,
+					154
+				],
+				[
+					801,
+					154
+				],
+				[
+					801,
+					0
+				],
+				[
+					1276,
+					0
+				],
+				[
+					1276,
+					355
+				],
+				[
+					1752,
+					355
+				],
+				[
+					1752,
+					1102
+				],
+				[
+					831,
+					1102
+				],
+				[
+					831,
+					1297
+				],
+				[
+					470,
+					1202
+				],
+				[
+					470,
+					1102
+				],
+				[
+					0,
+					1102
+				]
+			]
+		}
+	],
+	"storeys": [
+		{
+			"id": "firstFloor",
+			"name": "First floor",
+			"coords": [
+				[
+					0,
+					154
+				],
+				[
+					0,
+					154
+				],
+				[
+					0,
+					154
+				],
+				[
+					0,
+					154
+				]
+			]
+		}
+	],
+	"spaces": [
+		{
+			"id": "bedroom",
+			"name": "Bedroom",
+			"coords": [
+				[
+					968,
+					582
+				],
+				[
+					1240,
+					582
+				],
+				[
+					1240,
+					918
+				],
+				[
+					968,
+					918
+				]
+			]
+		},
+		{
+			"id": "livingroom",
+			"name": "Livingroom",
+			"coords": [
+				[
+					30,
+					30
+				],
+				[
+					470,
+					30
+				],
+				[
+					470,
+					918
+				],
+				[
+					30,
+					918
+				]
+			]
+		},
+		{
+			"id": "kitchen",
+			"name": "Kitchen",
+			"coords": [
+				[
+					831,
+					-124
+				],
+				[
+					1057,
+					-124
+				],
+				[
+					1057,
+					326
+				],
+				[
+					831,
+					326
+				]
+			]
+		},
+		{
+			"id": "bathroom",
+			"name": "Bathroom",
+			"coords": [
+				[
+					1068,
+					-124
+				],
+				[
+					1243,
+					-124
+				],
+				[
+					1243,
+					326
+				],
+				[
+					1068,
+					326
+				]
+			]
+		},
+		{
+			"id": "bedroom2",
+			"name": "Bedroom2",
+			"coords": [
+				[
+					1410,
+					230
+				],
+				[
+					1720,
+					230
+				],
+				[
+					1720,
+					545
+				],
+				[
+					1410,
+					545
+				]
+			]
+		},
+		{
+			"id": "bathroom2",
+			"name": "Bathroom2",
+			"coords": [
+				[
+					825,
+					582
+				],
+				[
+					957,
+					582
+				],
+				[
+					957,
+					918
+				],
+				[
+					825,
+					918
+				]
+			]
+		},
+		{
+			"id": "corridor",
+			"name": "Corridor",
+			"coords": [
+				[
+					500,
+					30
+				],
+				[
+					801,
+					30
+				],
+				[
+					801,
+					340
+				],
+				[
+					1273,
+					340
+				],
+				[
+					1273,
+					230
+				],
+				[
+					1399,
+					230
+				],
+				[
+					1399,
+					545
+				],
+				[
+					1273,
+					545
+				],
+				[
+					1273,
+					460
+				],
+				[
+					1243,
+					460
+				],
+				[
+					1243,
+					571
+				],
+				[
+					1113,
+					571
+				],
+				[
+					1113,
+					460
+				],
+				[
+					801,
+					460
+				],
+				[
+					801,
+					1103
+				],
+				[
+					500,
+					1018
+				]
+			]
+		},
+		{
+			"id": "stairwell",
+			"name": "Stairwell",
+			"coords": [
+				[
+					825,
+					471
+				],
+				[
+					1101,
+					471
+				],
+				[
+					1101,
+					571
+				],
+				[
+					825,
+					571
+				]
+			]
+		},
+		{
+			"id": "office",
+			"name": "Office",
+			"coords": [
+				[
+					1273,
+					556
+				],
+				[
+					1720,
+					556
+				],
+				[
+					1720,
+					918
+				],
+				[
+					1273,
+					918
+				]
+			]
+		},
+		{
+			"id": "door-liv-coo",
+			"name": "D1",
+			"coords": [
+				[
+					470,
+					210
+				],
+				[
+					500,
+					210
+				],
+				[
+					500,
+					320
+				],
+				[
+					470,
+					320
+				]
+			]
+		},
+		{
+			"id": "door-coo-kit",
+			"name": "D2",
+			"coords": [
+				[
+					801,
+					210
+				],
+				[
+					831,
+					210
+				],
+				[
+					831,
+					326
+				],
+				[
+					801,
+					326
+				]
+			]
+		},
+		{
+			"id": "door-bat1-coo",
+			"name": "D3",
+			"coords": [
+				[
+					1243,
+					238
+				],
+				[
+					1273,
+					238
+				],
+				[
+					1273,
+					316
+				],
+				[
+					1243,
+					316
+				]
+			]
+		},
+		{
+			"id": "door-sta-coo",
+			"name": "D4",
+			"coords": [
+				[
+					1101,
+					481
+				],
+				[
+					1112,
+					481
+				],
+				[
+					1112,
+					561
+				],
+				[
+					1101,
+					561
+				]
+			]
+		},
+		{
+			"id": "door-coo-bat2",
+			"name": "D5",
+			"coords": [
+				[
+					801,
+					620
+				],
+				[
+					825,
+					620
+				],
+				[
+					825,
+					696
+				],
+				[
+					801,
+					696
+				]
+			]
+		},
+		{
+			"id": "door-coo-bed",
+			"name": "D6",
+			"coords": [
+				[
+					1145,
+					571
+				],
+				[
+					1233,
+					571
+				],
+				[
+					1233,
+					582
+				],
+				[
+					1145,
+					582
+				]
+			]
+		},
+		{
+			"id": "door-coo-bed2",
+			"name": "D7",
+			"coords": [
+				[
+					1399,
+					238
+				],
+				[
+					1410,
+					238
+				],
+				[
+					1410,
+					326
+				],
+				[
+					1399,
+					326
+				]
+			]
+		},
+		{
+			"id": "door-coo-off",
+			"name": "D8",
+			"coords": [
+				[
+					1288,
+					545
+				],
+				[
+					1376,
+					545
+				],
+				[
+					1376,
+					556
+				],
+				[
+					1288,
+					556
+				]
+			]
+		},
+		{
+			"id": "door-coo-gar",
+			"name": "D9",
+			"coords": [
+				[
+					500,
+					0
+				],
+				[
+					600,
+					0
+				],
+				[
+					600,
+					30
+				],
+				[
+					500,
+					30
+				]
+			]
+		},
+		{
+			"id": "door-coo-ent",
+			"name": "D10",
+			"coords": [
+				[
+					801,
+					970
+				],
+				[
+					829,
+					970
+				],
+				[
+					829,
+					1058
+				],
+				[
+					801,
+					1058
+				]
+			]
+		}
+	],
+	"elements": [
+		{
+			"id": "writingdesk",
+			"name": "Writing desk",
+			"coords": []
+		}
+	],
+	"tree": [
+		{
+			"id": "SuiteSampleSite",
+			"hasBuilding": [
+				"residentialBuilding"
+			]
+		},
+		{
+			"id": "residentialBuilding",
+			"hasStorey": [
+				"firstFloor"
+			],
+			"parent": "SuiteSampleSite"
+		},
+		{
+			"id": "firstFloor",
+			"hasSpace": [
+				"bedroom",
+				"bedroom2",
+				"livingroom",
+				"kitchen",
+				"bathroom",
+				"bathroom2",
+				"corridor",
+				"stairwell",
+				"office",
+				"door-liv-coo",
+				"door-coo-kit",
+				"door-bat1-coo",
+				"door-sta-coo",
+				"door-coo-bat2",
+				"door-coo-bed",
+				"door-coo-bed2",
+				"door-coo-off",
+				"door-coo-gar",
+				"door-coo-ent"
+			],
+			"parent": "residentialBuilding"
+		},
+		{
+			"id": "bedroom",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "bedroom2",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "office",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "livingroom",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "kitchen",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "bathroom",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "bathroom2",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "corridor",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "stairwell",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-liv-coo",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-kit",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-bat1-coo",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-sta-coo",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-bat2",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-bed",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-bed2",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-off",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-gar",
+			"hasElement": [],
+			"parent": "firstFloor"
+		},
+		{
+			"id": "door-coo-ent",
+			"hasElement": [],
+			"parent": "firstFloor"
+		}
+	]
+}

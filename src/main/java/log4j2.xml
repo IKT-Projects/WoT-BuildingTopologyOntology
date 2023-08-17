@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="log-path">logs/</Property>
+		<Property name="log-file-name">ict-wot</Property>
+	</Properties>
+	<Appenders>
+		<Console name="RootAppender" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%highlight{%-5level [%d{dd MMM yyyy HH:mm:ss.SSS}] [%-20.20t] [%-22.22logger{70}] [%-16.16F] [%5L] - %msg%n}{FATAL=Bright red, ERROR=red, WARN=yellow, DEBUG=blue, TRACE=green}" />
+		</Console>
+		<RollingFile name="RollingFile"
+			fileName="${log-path}/${log-file-name}.log"
+			filePattern="${log-path}/${log-file-name}-%d{yyyy-MM-dd}-%i.log"
+			append="false">
+			<PatternLayout
+				header="${java:runtime} - ${java:vm} - ${java:os}"
+				pattern="%-5level
+				[%d{dd MMM yyyy HH:mm:ss.SSS}] [%-30t] [%-70logger{70}] [%-40F] [%5L] - %msg%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="4" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Logger name="org.ict.model" level="info" />
+		<Root level="debug">
+			<AppenderRef ref="RootAppender" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+	</Loggers>
+</Configuration>
